@@ -13,8 +13,8 @@ export const actualizarEstudianteFachada = (bodyEstudiante, id) => {
     actualizarEstudiante(bodyEstudiante, id);
 }
 
-export const eliminarEstudianteFachada = (id) =>{
-    eliminarEstudiante(id);
+export const eliminarEstudianteFachada = async (id) =>{
+    return await eliminarEstudiante(id);
 }
 
 const obtenerEstudianteAPI = async (cedula)=>{
@@ -37,6 +37,7 @@ const actualizarEstudiante = (bodyEstudiante, id) => {
     axios.put(`http://localhost:8080/API/v1.0/Matricula/estudiantes/${id}`, bodyEstudiante).then(r=>r.data);
 }
 
-const eliminarEstudiante = (id) =>{
-    axios.delete(`http://localhost:8080/API/v1.0/Matricula/estudiantes/${id}`).then(r=>r.data);
+const eliminarEstudiante = async (id) =>{
+    const data = axios.delete(`http://localhost:8080/API/v1.0/Matricula/estudiantes/${id}`).then(r=>r.data);
+    return data
 }
