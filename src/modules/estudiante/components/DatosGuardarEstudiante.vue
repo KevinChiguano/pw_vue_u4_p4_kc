@@ -43,8 +43,13 @@ export default {
       };
 
       await ingresarEstudianteFachada(data);
+
+      console.log("Estudiante guardado");
     },
   },
+
+  
+
 };
 </script>
   

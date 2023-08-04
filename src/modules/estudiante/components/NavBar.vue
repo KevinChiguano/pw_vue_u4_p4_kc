@@ -1,6 +1,6 @@
 <template>
   <div class="navigation">
-    <router-link to="/consultar" class="nav-link">Consultar</router-link>
+    <router-link to="/consultar/:cedula" class="nav-link">Consultar</router-link>
     <router-link to="/guardar" class="nav-link">Guardar</router-link>
     <router-link to="/actualizar" class="nav-link">Actualizar</router-link>
     <router-link to="/eliminar" class="nav-link">Eliminar</router-link>

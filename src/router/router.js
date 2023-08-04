@@ -3,23 +3,19 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 
 const routes = [
     {
-        path: "/consultar",
-        //component: BienvenidaPage
+        path: "/consultar/:cedula",
         component: () => import('../modules/estudiante/pages/ConsultaEstudiante') 
     },
     {
         path: "/guardar",
-        //component: JuegoPage
         component: () => import('../modules/estudiante/pages/GuardaEstudiante')
     },
     {
         path: "/actualizar",
-        //component: PremiosPage
         component: () => import('../modules/estudiante/pages/ActualizarEstudiante')
     },
     {
         path: "/eliminar",
-        //component: PokemonPages
         component: () => import('../modules/estudiante/pages/EliminarEstudiante')
     },
 ]
