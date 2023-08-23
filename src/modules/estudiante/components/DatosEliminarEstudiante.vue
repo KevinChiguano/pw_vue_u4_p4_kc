@@ -64,7 +64,7 @@
   </script>
   
   <style scoped>
-  /* Estilos para el contenedor principal */
+  
   .container {
     max-width: 400px;
     margin: 0 auto;
@@ -74,21 +74,21 @@
     background-color: #f7f7f7;
   }
   
-  /* Estilos para los grupos de campos del formulario */
+  
   .form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
   }
   
-  /* Estilos para las etiquetas del formulario */
+  
   .form-label {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  /* Estilos para los campos de entrada del formulario */
+  
   .form-input {
     flex: 1;
     padding: 10px;
@@ -97,7 +97,7 @@
     border-radius: 4px;
   }
   
-  /* Estilos para el botón de eliminar */
+ 
   .submit-button {
     padding: 10px;
     font-size: 16px;

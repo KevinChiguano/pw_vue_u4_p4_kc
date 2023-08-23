@@ -38,13 +38,17 @@
         };
   
         await actualizarEstudianteFachada(data, this.id);
+
+        this.cedula = ""
+        this.nombre = ""
+        this.apellido = ""
+        this.id = ""
       },
     },
   };
   </script>
   
   <style scoped>
-  /* Estilos para el contenedor principal */
   .container {
     max-width: 400px;
     margin: 0 auto;
@@ -54,14 +58,14 @@
     background-color: #f7f7f7;
   }
   
-  /* Estilos para las etiquetas del formulario */
+  
   .form-label {
     font-size: 16px;
     font-weight: bold;
     margin-right: 10px;
   }
   
-  /* Estilos para los campos de entrada del formulario */
+  
   .form-input {
     width: 90%;
     padding: 10px;
@@ -71,7 +75,7 @@
     margin-bottom: 15px;
   }
   
-  /* Estilos para el botón de actualizar */
+  
   .submit-button {
     display: block;
     width: 100%;

@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos para el contenedor principal */
+
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -68,14 +68,14 @@ export default {
   background-color: #f7f7f7;
 }
 
-/* Estilos para el grupo de campos del formulario */
+
 .form-group {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
-/* Estilos para los campos de entrada del formulario */
+
 .form-input {
   flex: 1;
   width: 90%;
@@ -90,7 +90,7 @@ export default {
   flex-direction: column;
   margin-bottom: 15px;
 }
-/* Estilos para el botón de consultar */
+
 .submit-button {
   padding: 10px;
   font-size: 16px;
@@ -106,7 +106,7 @@ export default {
   background-color: #0056b3;
 }
 
-/* Estilos para las etiquetas del formulario */
+
 .form-label {
   font-size: 16px;
   font-weight: bold;

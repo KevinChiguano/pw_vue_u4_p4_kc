@@ -43,13 +43,20 @@ export default {
       };
 
       await ingresarEstudianteFachada(data);
+
+      /*this.cedula = ""
+      this.nombre = ""
+      this.apellido = ""
+      this.provincia = ""
+      this.fechaNacimiento = ""*/
+
     },
   },
 };
 </script>
   
   <style scoped>
-/* Estilos para el contenedor principal */
+
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -59,7 +66,7 @@ export default {
   background-color: #f7f7f7;
 }
 
-/* Estilos para las etiquetas del formulario */
+
 .form-label {
   display: block;
   font-size: 16px;
@@ -67,7 +74,7 @@ export default {
   margin-bottom: 5px;
 }
 
-/* Estilos para los campos de entrada del formulario */
+
 .form-input {
   width: 90%;
   padding: 10px;
@@ -77,7 +84,7 @@ export default {
   margin-bottom: 15px;
 }
 
-/* Estilos para el botón de guardar */
+
 .submit-button {
   display: block;
   width: 100%;
