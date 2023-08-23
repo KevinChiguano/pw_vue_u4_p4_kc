@@ -3,7 +3,7 @@
     <div class="form-group">
       <label class="form-label">Cedula</label>
       <input v-model="cedula" type="text" class="form-input" />
-      <button @click="consultarEstudiante" class="submit-button">
+      <button @click="consultarEstudiante" class="btn btn-outline-primary">
         Consultar
       </button>
     </div>

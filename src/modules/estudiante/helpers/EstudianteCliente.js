@@ -23,14 +23,14 @@ const obtenerEstudianteAPI = async (cedula)=>{
     return data;
 }
 
-const obtenerEstudianteAPIAxios = async (cedula)=>{
+const obtenerEstudianteAPIAxios = async (cedula,token)=>{
 
     //En el config vamos a enviar todos los datos de cabecera
     //declarar una cabecera
     //declarar como si fuera un json
     //por cada cabecera o key declarar como si fuera un atributo
     const headers={
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5Mjc1MDkxMywiZXhwIjoxNjkyNzUyMTEzfQ.1eoPO-IDgs4pxmpG_sO7Nl6kVApoNKll9WQgImdGBJH66bccOeFCs0f99oWha06f3VioyM7cA6zV3uwEjX_CVQ",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5MjgyOTc3OSwiZXhwIjoxNjkyODMwOTc5fQ.vEpJ-cY-z0OGhgi55LJsjjQDQ-Q1F5I6NHwosswH6Mepqy2oM3b28jHfkDr5RtmD_jWDZXmYZUvK3Z-s0ZKMJA",
         "Mensaje": "Valor1"
     }
 
@@ -42,7 +42,7 @@ const obtenerEstudianteAPIAxios = async (cedula)=>{
 const ingresarEstudiante = (bodyEstudiante) =>{
 
     const headers={
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5Mjc1MDkxMywiZXhwIjoxNjkyNzUyMTEzfQ.1eoPO-IDgs4pxmpG_sO7Nl6kVApoNKll9WQgImdGBJH66bccOeFCs0f99oWha06f3VioyM7cA6zV3uwEjX_CVQ",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5MjgyOTc3OSwiZXhwIjoxNjkyODMwOTc5fQ.vEpJ-cY-z0OGhgi55LJsjjQDQ-Q1F5I6NHwosswH6Mepqy2oM3b28jHfkDr5RtmD_jWDZXmYZUvK3Z-s0ZKMJA",
         "Mensaje": "Valor1"
     }
 
@@ -53,7 +53,7 @@ const actualizarEstudiante = (bodyEstudiante, id) => {
 
 
     const headers={
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5Mjc1MDkxMywiZXhwIjoxNjkyNzUyMTEzfQ.1eoPO-IDgs4pxmpG_sO7Nl6kVApoNKll9WQgImdGBJH66bccOeFCs0f99oWha06f3VioyM7cA6zV3uwEjX_CVQ",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5MjgyOTc3OSwiZXhwIjoxNjkyODMwOTc5fQ.vEpJ-cY-z0OGhgi55LJsjjQDQ-Q1F5I6NHwosswH6Mepqy2oM3b28jHfkDr5RtmD_jWDZXmYZUvK3Z-s0ZKMJA",
         "Mensaje": "Valor1"
     }
 
@@ -63,7 +63,7 @@ const actualizarEstudiante = (bodyEstudiante, id) => {
 const eliminarEstudiante = async (id) =>{
 
     const headers={
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5Mjc1MDkxMywiZXhwIjoxNjkyNzUyMTEzfQ.1eoPO-IDgs4pxmpG_sO7Nl6kVApoNKll9WQgImdGBJH66bccOeFCs0f99oWha06f3VioyM7cA6zV3uwEjX_CVQ",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrZXZpbiIsImlhdCI6MTY5MjgyOTc3OSwiZXhwIjoxNjkyODMwOTc5fQ.vEpJ-cY-z0OGhgi55LJsjjQDQ-Q1F5I6NHwosswH6Mepqy2oM3b28jHfkDr5RtmD_jWDZXmYZUvK3Z-s0ZKMJA",
         "Mensaje": "Valor1"
     }
 

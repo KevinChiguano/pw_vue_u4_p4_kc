@@ -39,7 +39,7 @@ export default {
         nombre: this.nombre,
         apellido: this.apellido,
         provincia: this.provincia,
-        fechaNacimiento: this.fechaNacimiento, 
+        fechaNacimiento: this.fechaNacimiento,
       };
 
       await ingresarEstudianteFachada(data);
@@ -49,14 +49,12 @@ export default {
       this.apellido = ""
       this.provincia = ""
       this.fechaNacimiento = ""*/
-
     },
   },
 };
 </script>
   
   <style scoped>
-
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -66,14 +64,12 @@ export default {
   background-color: #f7f7f7;
 }
 
-
 .form-label {
   display: block;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
 
 .form-input {
   width: 90%;
@@ -83,7 +79,6 @@ export default {
   border-radius: 4px;
   margin-bottom: 15px;
 }
-
 
 .submit-button {
   display: block;
@@ -100,5 +95,22 @@ export default {
 
 .submit-button:hover {
   background-color: #0056b3;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #0d6efd;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0d6efd;
+  --bs-btn-hover-border-color: #0d6efd;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0d6efd;
+  --bs-btn-active-border-color: #0d6efd;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #0d6efd;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-gradient: none;
 }
 </style>

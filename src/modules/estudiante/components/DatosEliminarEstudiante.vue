@@ -3,7 +3,7 @@
       <div class="form-group">
         <label for="">ID</label>
         <input v-model="id" type="text" class="form-input" />
-        <button @click="eliminarEstudiante" class="submit-button">Eliminar</button>
+        <button @click="eliminarEstudiante" class="btn btn-outline-danger">Eliminar</button>
       </div>
   
       <!-- <label class="form-label">Estudiante Eliminado</label>-->
